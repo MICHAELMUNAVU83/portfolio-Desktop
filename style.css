@@ -1,0 +1,218 @@
+header {
+  width: 98%;
+  height: 82px;
+  left: 0px;
+  top: 0px;
+
+  background: #3e3c3c;
+}
+
+.introduction {
+  display: flex;
+  justify-content: space-between;
+}
+.name {
+  flex: 4;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  padding-left: 30px;
+
+  color: #ffffff;
+}
+.aboutContact {
+  flex: 0.5;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  /* identical to box height, or 133% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+.hello {
+  width: 98%;
+  height: 870px;
+  left: 0px;
+  top: 0px;
+
+  background: #1c1a19;
+}
+
+.illus {
+  position: absolute;
+  right: 2.6%;
+}
+.icons {
+  padding-top: 120px;
+  margin-top: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 10px;
+}
+li {
+  padding-top: 6px;
+  margin-bottom: 10px;
+  grid-template-columns: 50px;
+}
+.intro {
+  position: absolute;
+  left: 300px;
+  top: 70px;
+}
+.hey {
+  display: grid;
+  grid-template-rows: 59px;
+  width: 566px;
+  height: 160px;
+  padding-top: 50px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 82px;
+  line-height: 81px;
+
+  color: #f55800;
+}
+.soft {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  padding-top: 5px;
+  /* or 137% */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+.introAbt {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  display: grid;
+  grid-template-columns: 400px;
+
+  color: #f4f5f7;
+}
+.about {
+  padding-top: 30px;
+  width: 98%;
+  height: 1195px;
+  background: #262626;
+}
+.abtMe {
+  width: 566px;
+  height: 78px;
+  left: 0px;
+  top: 130px;
+
+  font-family: Crete Round;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 81px;
+  padding-left: 30px;
+  /* or 113% */
+
+  color: #f55800;
+}
+.abtInfo {
+  display: grid;
+  padding-left: 30px;
+  grid-template-columns: 400px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  /* or 160% */
+
+  /* Neutrals/N20 */
+
+  color: #f4f5f7;
+}
+.abtImage {
+  position: absolute;
+  right: 3%;
+  top: 180%;
+}
+.abtButton {
+  margin-left: 30px;
+  border: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+
+  width: 161px;
+  height: 48px;
+  left: 0px;
+  top: 404px;
+
+  background: #f55800;
+}
+.abtButton:hover{
+  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+  -moz-transform: translateY(4px);
+  -ms-transform: translateY(4px);
+  -o-transform: translateY(4px);
+}
+.deviderImg{
+  position: absolute;
+  padding-top: 30px;
+  left: 4%;
+  padding-bottom: 5px;
+}
+.skills{
+  position: absolute;
+  left: 80%;
+  top: 270%;
+  list-style: none;
+  
+}
+.frameworks{
+  position: absolute;
+  left: 40%;
+  top: 270%;
+  list-style: none;
+
+}
+.languages{
+  position: absolute;
+  top: 270%;
+  list-style: none;
+}
+.languageSkill{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 43px;
+
+
+display: flex;
+align-items: center;
+list-style: none;
+
+color: #FFFFFF;
+}
