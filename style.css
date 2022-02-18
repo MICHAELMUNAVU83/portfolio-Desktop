@@ -171,6 +171,7 @@ li {
   background: #f55800;
 }
 .abtButton:hover{
+  background-color: blue;
   transform: translateY(4px);
   -webkit-transform: translateY(4px);
   -moz-transform: translateY(4px);
@@ -215,4 +216,49 @@ align-items: center;
 list-style: none;
 
 color: #FFFFFF;
+}
+footer{
+   height :114px;
+   padding-top: 100px;
+}
+.footer-text{
+  font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 52px;
+display: grid;
+grid-template-columns: 440px;
+
+color: #262626;
+}
+.formClass{
+  position: absolute;
+  right: 10%;
+  top: 380%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #dbd8d7;
+}
+.formEmail{
+  position: absolute;
+  right: 25%;
+  top: 390%;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #dbd8d7;
+}
+.formReply{
+  right: 19%;
+  top: 400%;
+  position: absolute;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #dbd8d7;
+  
+
 }
